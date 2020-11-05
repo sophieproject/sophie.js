@@ -1,0 +1,27 @@
+{
+  "name": "sophiejs",
+  "version": "1.0.0",
+  "description": "The official API Wrapper for Sophie API",
+  "main": "sophie.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sophieproject/sophie.js.git"
+  },
+  "keywords": [
+    "API",
+    "Sophie",
+    "AI"
+  ],
+  "author": "The Sophie Foundation",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sophieproject/sophie.js/issues"
+  },
+  "homepage": "https://github.com/sophieproject/sophie.js#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
