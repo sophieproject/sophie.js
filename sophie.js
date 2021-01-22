@@ -1,27 +1,9 @@
 const fetch = require('node-fetch');
-
-exports.auth = function(tokeni, serveri) {
-    token = tokeni
-    server = serveri
-    return
-  }
-
-exports.lookup = function(username) {
-    try {
-    fetch(`http://${server}/api/pedodb/${username}`, {
-		method: "post"
-      }
-      .then(res => {
-          return(res)
-      }));
-    } catch (error){
-        return(error)
-    }
- }
+const server = localhost:8080
 
 exports.msgcheck = function(message) {
     try {
-    fetch(`http://${server}/api/ai/${message}`, {
+    fetch(`http://${server}/model/parse`, {
 		method: "post"
       }
       .then(res => {
